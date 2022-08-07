@@ -1,0 +1,103 @@
+<html lang="fa-IR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>بروزرسانی سایت-  
+    -
+    گروه تیما
+    </title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href=""
+    />
+    <style>
+      /* Font Dana Pro add page */
+      @font-face {
+        font-family: Danapro;
+        src: url("https://waregint.sirv.com/iseokar.ir/fonts/Dana-Regular.woff2")
+          format("woff2");
+        font-weight: 100;
+        font-style: normal;
+      }
+      /* Font Dana Pro add page */
+      body {
+        font-family: Danapro !important;
+        font-size: 17px;
+        background: #34495e;
+        color: #ecf0f1;
+        margin: 0;
+        padding: 0;
+      }
+      .banner {
+        display: block;
+        min-height: 200px;
+        width: 100%;
+        position: relative;
+      }
+      .typed_wrap {
+        display: block;
+        border: 4px solid #ecf0f1;
+        width: 500px;
+        height: auto;
+        padding: 30px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      .typed_wrap h1 {
+        display: inline;
+      }
+      .typed::after {
+        content: "|";
+        display: inline;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+      }
+      .typed-cursor {
+        opacity: 0;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page_wrap">
+      <div class="banner">
+        <div class="typed_wrap">
+          <h1><span class="typed"></span></h1>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $(".typed").typed({
+          strings: ["...درحال بروزرسانی سایت هستیم"],
+          stringsElement: null,
+          typeSpeed: 30,
+          startDelay: 1200,
+          backSpeed: 20,
+          backDelay: 2500,
+          loop: true,
+          loopCount: false,
+          showCursor: false,
+          cursorChar: "|",
+          attr: null,
+          contentType: "html",
+          callback: function () {},
+          preStringTyped: function () {},
+          onStringTyped: function () {},
+          resetCallback: function () {},
+        });
+      });
+    </script>
+  </body>
+</html>
